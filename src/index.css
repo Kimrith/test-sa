@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+/* index.css or App.css */
+
+body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  font-family: sans-serif;
+}
